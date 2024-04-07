@@ -15,8 +15,8 @@ public class DataSetup {
     @PostConstruct
     public void setupData() {
         orderRepository.saveAll(Arrays.asList(
-                Order.builder().id(1).orderNumber("0c70c0c2").postalCode("1000001").build(),
-                Order.builder().id(2).orderNumber("7f8f9f15").postalCode("1100000").build(),
-                Order.builder().id(3).orderNumber("394627b2").postalCode("2100001").build()));
+                Order.builder().id(1).orderNumber("0c70c0c2").postalCode("1001").build(),
+                Order.builder().id(2).orderNumber("7f8f9f15").postalCode("1002").build(),
+                Order.builder().id(3).orderNumber("394627b2").postalCode("1003").build()));
     }
 }
